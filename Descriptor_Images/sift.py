@@ -1,5 +1,4 @@
 import cv2 as cv
-import numpy as np
 
 '''Sift detector is a function that detects features and is not affected by the scale
 of the image'''
