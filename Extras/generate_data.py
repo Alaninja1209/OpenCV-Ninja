@@ -1,7 +1,7 @@
 import cv2 as cv
 import os
 
-output_folder = 'Extras\data'
+output_folder = 'Extras\ivan'
 
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
