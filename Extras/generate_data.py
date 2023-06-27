@@ -1,6 +1,9 @@
 import cv2 as cv
 import os
 
+'''This code tends to get the dataset for face recognition, it scans the region of the face and
+save it in an pgm file'''
+
 output_folder = 'Extras\ivan'
 
 if not os.path.exists(output_folder):
