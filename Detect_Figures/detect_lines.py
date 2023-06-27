@@ -6,7 +6,7 @@ that these points belong to the same line'''
 
 '''The ideal source for Hough Transform is an image denoised and only represent edges'''
 
-img = cv.imread(r'Detect_Objects\images\night_building.jpg')
+img = cv.imread(r'Detect_Figures\images\night_building.jpg')
 
 # Turning to gray scale
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)

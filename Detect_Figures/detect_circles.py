@@ -4,7 +4,7 @@ import numpy as np
 '''Apply Hough Circles Transform, define minimum distance between circle center and 
 the maximum and minimum for radius'''
 
-figures = cv.imread(r'Detect_Objects\images\figuras.png')
+figures = cv.imread(r'Detect_Figures\images\figuras.png')
 
 gray = cv.cvtColor(figures, cv.COLOR_BGR2GRAY)
 gray = cv.medianBlur(gray, 5)
