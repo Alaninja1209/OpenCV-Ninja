@@ -1,6 +1,12 @@
 import cv2 as cv
 from matplotlib import pyplot as plt
 
+'''KNN method consists of retain the best distance matches gor every query keypoint, for this
+we measure the distance between each descriptor'''
+
+'''Radio test is when the best match is good only is the distance score is
+lower than the threshold'''
+
 img0 = cv.imread(r'Descriptor_Images\images\nasa_logo.png', cv.IMREAD_GRAYSCALE)
 img1 = cv.imread(r'Descriptor_Images\images\kennedy_space_center.jpg', cv.IMREAD_GRAYSCALE)
 
