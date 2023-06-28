@@ -1,5 +1,8 @@
 import cv2 as cv
 
+'''When we use HOG Descriptors to detect people, we can have nested detections which
+are considered as errors'''
+
 # Function to check nested rectangles, i represents possible inner rectangle and o possible outer rectangle
 def is_inside(i, o):
     ix, iy, iw, ih = i
